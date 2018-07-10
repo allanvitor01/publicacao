@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Allan Carneiro</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="/static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/clean-blog.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="/ensino_fisica/">Curso de Física</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog/">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact/">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+  
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('/static/img/lista_author.jpeg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>Lista Autor</h1>
+              <span class="subheading">Os melhores estão aqui!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+</header>
+
+
+
+
+               <table align="center" width="700" border="1px" bgcolor="#CCC">
+                  <tr>
+                    <td width="300" align="center" >Nome</td>
+                    <td width="150" align="center">E-mail</td>
+                    <td width="150" align="center">Website</td>
+                    <td width="200" align="center">Biografia</td>
+                    <td width="50" align="center">Edição</td>
+                  </tr>
+                  
+                  <tr>
+                    <td height="40" align="justify"> Allan Carneiro </td>
+                    <td align="center">allanvitor.carneiro@gmail.com</td>
+                    <td align="center">allancarneiro.weebly.com</td>
+                    <td align="center">Essa é minha história</td>
+                    <td align="center"><button>Editar</button></td>
+                  </tr>
+                  
+                  <tr>
+                    <td height="40" align="justify"> Joana </td>
+                    <td align="center">joana_saqua@hotmail.com</td>
+                    <td align="center">joana_site.com.br</td>
+                    <td align="center">Aqui é um teste!</td>
+                    <td align="center"><button>Editar</button></td>
+                  </tr>
+                  
+                  <tr>
+                    <td height="40" align="justify"> ADRIANO IBIAPINO BEZERRA </td>
+                    <td align="center">ibiapino_ad@hotmail.com</td>
+                    <td align="center">adrianoibiapino.weebly.com</td>
+                    <td align="center">Oiiii Aqui estamos!!!!</td>
+                    <td align="center"><button>Editar</button></td>
+                  </tr>
+                  
+                  <tr>
+                    <td height="40" align="justify"> Isabel </td>
+                    <td align="center">isabel.bel@gmail.com</td>
+                    <td align="center">www.facebook.com.br/bel123</td>
+                    <td align="center">Oi sou eu!</td>
+                    <td align="center"><button>Editar</button></td>
+                  </tr>
+                  
+                  <tr>
+                    <td height="40" align="justify"> Joana Rocha </td>
+                    <td align="center">joana.franciscorocha@gmail.com</td>
+                    <td align="center">joana.com.br</td>
+                    <td align="center">Eu gogogogogo!</td>
+                    <td align="center"><button>Editar</button></td>
+                  </tr>
+                  
+                  <tr>
+                    <td height="40" align="justify"> Allan Viii </td>
+                    <td align="center">allan.carneiro@ufrj.br</td>
+                    <td align="center">allancarneirooooo.weebly.com</td>
+                    <td align="center">Oi Aqui sou eu!</td>
+                    <td align="center"><button>Editar</button></td>
+                  </tr>
+                  
+                  <tr>
+                    <td height="40" align="justify"> Allan V M Carneiro </td>
+                    <td align="center">allanvitor01@hotmail.com</td>
+                    <td align="center">www.facebook.com.br/allan</td>
+                    <td align="center">Oi Aqui sou eu! Novamente!</td>
+                    <td align="center"><button>Editar</button></td>
+                  </tr>
+                  
+                </table>
+
+
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="https://www.twitter.com/allanvitor01" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/allanvitor01" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/allanvitor01/python_cafe" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; Allan Carneiro 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/static/js/jqBootstrapValidation.js"></script>
+    <script src="/static/js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="/static/js/clean-blog.min.js"></script>
+
+  </body>
+
+</html>

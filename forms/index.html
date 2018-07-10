@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Allan Carneiro</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="/static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/clean-blog.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="/ensino_fisica/">Curso de Física</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog/">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact/">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+  
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('/static/img/cadastro01.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>Cadastro Autor</h1>
+              <span class="subheading">Os melhores estão aqui!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+</header>
+<div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+
+            <form action="/forms/" method="post">
+                <input id="csrf_token" name="csrf_token" type="hidden" value="IjMzNzRhOWVhNWRkNWZhM2I0YzgwMDFlNzk3ZWI4OGNlN2VjMzEwMzQi.DiZJPw.fxo2LpFAahKfx6pm865kRb-OJNo">
+
+                <label for="name"><label for="name">Nome</label></label>
+                <input class="form-control" id="name" name="name" placeholder="Nome*" required type="text" value=""><br/>
+                <label for="email"><label for="email">E-mail</label></label>
+                <input class="form-control" id="email" name="email" placeholder="E-mail*" required type="text" value=""><br/>
+                <label for="website"><label for="website">Website</label></label>
+                <input class="form-control" id="website" name="website" placeholder="Website*" required type="text" value=""><br/>
+                <label for="photo"><label for="photo">Photo</label></label>
+                <input class="form-control" id="photo" name="photo" placeholder="Link da Foto*" required type="text" value=""><br/>
+                <label for="bio"><label for="bio">Biografia</label></label>
+                <textarea class="form-control" id="bio" name="bio" placeholder="Biografia*" required></textarea><br/>
+                <input type="submit" name="botao" value="enviar">
+            </form>
+        </div>
+      </div>
+</div>
+
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="https://www.twitter.com/allanvitor01" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/allanvitor01" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/allanvitor01/python_cafe" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; Allan Carneiro 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/static/js/jqBootstrapValidation.js"></script>
+    <script src="/static/js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="/static/js/clean-blog.min.js"></script>
+
+  </body>
+
+</html>
